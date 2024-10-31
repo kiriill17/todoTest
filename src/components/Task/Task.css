@@ -1,0 +1,54 @@
+.task {
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px #0000001a;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task__left {
+  margin-left: 50px;
+  width: 60%;
+}
+
+.task__left {
+  word-break: break-word;
+}
+
+.task__right {
+  margin-right: 50px;
+}
+
+.delBTN {
+  background-color: #fff;
+  font-weight: 500;
+  border: 1px solid rgba(216, 146, 16, 0.154);
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.completeBTN {
+  border: 1px solid rgba(216, 146, 16, 0.154);
+  background-color: #fff;
+  font-weight: 500;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.delBTN:hover {
+  background-color: rgb(216, 146, 16);
+}
+
+.completeBTN:hover {
+  background-color: rgb(216, 146, 16);
+}

@@ -1,0 +1,52 @@
+.main__container {
+  margin: 40px auto;
+  width: 1080px;
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 30px;
+}
+
+button {
+  font-family: 'Montserrat';
+}
+
+.addTaskBTN {
+  background-color: rgb(216, 146, 16);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(216, 146, 16, 0.486);
+  border: none;
+  height: 50px;
+  width: 300px;
+  font-family: 'Montserrat';
+  cursor: pointer;
+  transform: translateY(0);
+  transition: 0.1s ease-in-out;
+  font-weight: 600;
+}
+
+.addTaskBTN:hover {
+  transform: translateY(-5px);
+  scale: 1.05;
+}
+
+.top__cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.clearCart {
+  cursor: pointer;
+  color: #b3b3b3;
+  transition: 0.2s ease-in-out;
+}
+
+.clearCart:hover {
+  color: #000;
+}
