@@ -63,3 +63,15 @@
   transform: rotate(180deg);
   scale: 1.1;
 }
+
+.modalBTN {
+  background-color: rgb(216, 146, 16);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(216, 146, 16, 0.486);
+  border: none;
+  height: 50px;
+  font-family: 'Montserrat';
+  cursor: pointer;
+  width: 100%;
+  font-weight: 500;
+}
